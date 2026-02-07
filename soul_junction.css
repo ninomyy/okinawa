@@ -523,14 +523,43 @@ body {
 
 .tour-date div:first-child {
     font-size: 1.2rem;
-    color: var(--color-primary);
+    color: var(--color-text-muted);
     letter-spacing: 2px;
+}
+
+.tour-date div:nth-child(2) {
+    font-size: 1.2rem;
+    color: var(--color-primary);
+    font-weight: bold;
 }
 
 .tour-date div:last-child {
     font-size: 3rem;
     color: var(--color-text-primary);
     line-height: 1;
+}
+
+.tour-year {
+    font-size: 1.4rem !important;
+    color: var(--color-text-muted) !important;
+    font-weight: 300;
+    margin-bottom: 0.2rem;
+    display: block;
+}
+
+.tour-month {
+    font-size: 1.2rem !important;
+    color: var(--color-primary) !important;
+    font-weight: bold;
+    display: block;
+    line-height: 1;
+}
+
+.tour-day {
+    font-size: 2.8rem !important;
+    color: var(--color-text-primary) !important;
+    line-height: 1;
+    display: block;
 }
 
 .tour-info {
